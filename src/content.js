@@ -31,10 +31,10 @@ export const about = {
 export const skills = {
     technical: [
         'JavaScript (ES6 & beyond)',
-        'SASS/CSS',
         'React, Flux/Redux and related modules in the ecosystem',
         'BDD/TDD via Jest, Enzyme and alternative modules',
         'Hybrid Mobile (mainly Cordova, some React Native)',
+        'CSS (usually BEM & preprocessor with autoprefixer etc)',
         'Tooling - various (primarily Webpack these days)',
         'NodeJS ecosystem & tooling (npm etc)',
         'Comfortable with TypeScript or Flow',
@@ -52,6 +52,7 @@ export const skills = {
         'Reasonable understanding of data structures & their importance',
         'Reasonable understanding of web accessibility',
         'Reasonable systems experience: message queues, emails, security',
+        'Experienced working in Agile teams, Scrum & Kanban styles',
         'Caching (it\'s simple but hard!)',
         'Naming things (even harder!)',
     ],

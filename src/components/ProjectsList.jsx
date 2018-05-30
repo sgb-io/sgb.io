@@ -4,7 +4,7 @@ import { projectsProp } from '../props'
 const ProjectsList = (props) => {
     const projects = props.projects.map((project, key) => (
         <div className="row project" key={key}>
-            <div className="col-xs-12">
+            <div className="col-12">
                 <h2>{project.title}</h2>
                 {
                     project.images.map((image, imageKey) => (
@@ -25,9 +25,9 @@ const ProjectsList = (props) => {
     ))
 
     return (
-        <div className="col-xs-12 col-sm-8 work">
+        <div className="col-12 col-sm-8 work">
             <div className="row">
-                <div className="col-xs-12">
+                <div className="col-12">
                     <h1>Past Work</h1>
                     {projects}
                 </div>

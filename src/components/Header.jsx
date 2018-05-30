@@ -17,10 +17,10 @@ const Header = (props) => {
 
     return (
         <div className="row header">
-            <div className="col-xs-12 col-sm-4 logo">
+            <div className="col-12 col-sm-4 logo">
                 <h1><img src={props.face} alt="My face" className="face" /></h1>
             </div>
-            <div className="col-xs-12 col-sm-8">
+            <div className="col-12 col-sm-8">
                 <ul className="nav nav-pills nav-fill">
                     {socialLinks}
                 </ul>

@@ -8,7 +8,7 @@ const About = (props) => {
 
     return (
         <div className="row about">
-            <div className="col-xs-12">
+            <div className="col-12">
                 {intros}
             </div>
         </div>
