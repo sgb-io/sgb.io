@@ -11,7 +11,7 @@ const SkillsList = (props) => {
 
     return (
         <div className="col-12 col-sm-4 tech">
-            <h1>Experience</h1>
+            <h2>Experience</h2>
             <h4>Technical</h4>
             <ul className="technical">
                 {
