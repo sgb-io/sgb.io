@@ -58,9 +58,9 @@ export const skills = {
     ],
     commercial: [
         {
-            dateRange: '10/17 - Present',
+            dateRange: '10/17 - 07/18',
             description: 'React/Redux JavaScript Developer (contract) at',
-            companyName: 'The App Business',
+            companyName: 'The App Business (for The Racing Post)',
             companyLink: 'https://www.theappbusiness.com/',
         },
         {
@@ -72,7 +72,7 @@ export const skills = {
         {
             dateRange: '10/16 - 03/17',
             description: 'Senior Full-Stack Developer (contract) at',
-            companyName: 'Mentally Friendly',
+            companyName: 'Mentally Friendly (for the British Museum)',
             companyLink: 'https://mentallyfriendly.com/',
         },
         {
@@ -96,7 +96,7 @@ export const skills = {
         {
             dateRange: '2011 - 2014',
             description: 'Web Developer, Lead Developer at',
-            companyName: 'UNIT9',
+            companyName: 'UNIT9 (for various clients)',
             companyLink: 'https://www.unit9.com/',
         },
     ],
