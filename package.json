@@ -13,7 +13,7 @@
   },
   "scripts": {
     "dev": "next dev src",
-    "start": "node server.js",
+    "start": "next start src",
     "build": "next build src",
     "export": "npm run build && next export src -o build",
     "test": "react-scripts test --env=jsdom"
