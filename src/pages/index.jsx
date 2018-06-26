@@ -22,9 +22,9 @@ const ServerRenderedSite = () => {
                 <meta property="og:description" content="Making & breaking stuff." />
                 <meta property="og:site_name" content="sgb.io" />
                 <meta property="og:url" content="https://sgb.io" />
-                <meta property="og:image" content="https://sgb.io/img/face.jpg" />
-                <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-                <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+                <meta property="og:image" content="https://sgb.io/static/img/face.jpg" />
+                <link rel="icon" type="image/png" href="/static/favicon-32x32.png" sizes="32x32" />
+                <link rel="icon" type="image/png" href="/static/favicon-16x16.png" sizes="16x16" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossOrigin="anonymous" />
                 <link rel="stylesheet" href="/static/app.css" />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17754914-5"></script>
