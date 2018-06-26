@@ -1,5 +1,5 @@
 body {
-  background: url("/img/background.png") top left repeat #f4f4f4;
+  background: url('/static/background.png') top left repeat #f4f4f4;
   font-family: 'Inconsolata', 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 18px;
 }
@@ -73,4 +73,4 @@ a, a:hover {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map*/
