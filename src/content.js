@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 export const about = {
-    face: '/img/face.jpg',
+    face: '/static/img/face.jpg',
     social: [
         {
             name: 'Github',
@@ -113,7 +113,7 @@ export const projects = [
         title: 'The App Business X The Racing Post (November 2017 - July 2018)',
         link: 'https://www.racingpost.com/',
         images: [
-            '/img/projects/rp.jpg',
+            '/static/img/projects/rp.jpg',
         ],
         role: 'React/Redux JavaScript Developer (contract)',
         description: 'I worked on an embedded agile team delivering substantial upgrades to racingpost.com. By the end of this project, racingpost.com went from only single bets, to a fully featured betslip supporting multiples and accumulators accross 6 bookmaker partners, with a brand new user experience. The stand-out feature of this project was the quality of the betslip component we delivered, including 99.96% test coverage.',
@@ -123,7 +123,7 @@ export const projects = [
         title: 'Circus Street (April 2017 - November 2017)',
         link: 'https://circusstreet.com/',
         images: [
-            '/img/projects/circus-street.jpg',
+            '/static/img/projects/circus-street.jpg',
         ],
         role: 'Senior Front-End Developer',
         description: 'I helped the team at Circus Street advance their online learning product by working accross their offering including the marketing website, the learning web application, the hybrid app and several internal management tools. This ranged from several greenfield React/Redux projects with 80%+ test coverage to maintaining an older Angular 1.X project. During this role I learned a great deal about Redux and had the pleasure of implementing several apps using it.',
@@ -133,7 +133,7 @@ export const projects = [
         title: 'Mentally Friendly X British Museum (October 2016 - March 2017)',
         link: 'https://britishmuseum.org',
         images: [
-            '/img/projects/british-museum.jpg',
+            '/static/img/projects/british-museum.jpg',
         ],
         role: 'Senior Full-Stack Developer',
         description: 'I was a significant contributor to the new (as-yet unreleased) British Museum website. Our team delivered a large project that enables the museum to deliver a vast range of dynamic content to over 500,000 global visitors per month. We implemented a fully component-ized responsive website with a containerized backend that involved multiple levels of caching and used microservices-like patterns. This project really exposed the challenges of a content-heavy organization.',
@@ -143,9 +143,9 @@ export const projects = [
         title: 'HAIRCVT (2014 - 2016)',
         link: 'https://humanjpg.com/work/haircvt',
         images: [
-            '/img/projects/haircvt.jpg',
-            '/img/projects/haircvt-2.jpg',
-            '/img/projects/haircvt-3.jpg',
+            '/static/img/projects/haircvt.jpg',
+            '/static/img/projects/haircvt-2.jpg',
+            '/static/img/projects/haircvt-3.jpg',
         ],
         role: 'Lead Developer & Partner',
         description: 'I led a team of 2 from iterating prototypes, to MVP, to a product delivering record growth month-on-month. Our product was a Laravel/Symfony PHP monolith with a Angular 1.X front-end, with many more technologies and challenges hidden away - including message queues, cacheing mechanisms, a database migration, AWS deployment and a hybrid Ionic app.',
@@ -155,7 +155,7 @@ export const projects = [
         title: 'Google Nexus 5 (2013)',
         link: 'https://google.com/nexus/5',
         images: [
-            '/img/projects/nexus.jpg',
+            '/static/img/projects/nexus.jpg',
         ],
         role: 'Tech Lead',
         description: 'I led the technical side of Google\'s showcase site for the Nexus 5 phone that launched in 2013. A responsive, retina-compatible & parallax project with interactive \'moments\', this site was visited by millions during the annoucement week. A challenging but rewarding project including integration with some internal Google systems.',

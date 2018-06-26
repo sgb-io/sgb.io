@@ -24,5 +24,5 @@ const experienceOutput = skills.commercial.map(
 )
 output = output.replace(EXPERIENCE_LIST, `- ${experienceOutput.join('\n- ')}`)
 
-
+// TODO make it write to cv.md
 console.log(output)
