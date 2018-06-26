@@ -15,8 +15,8 @@
     "dev": "next dev src",
     "start": "node server.js",
     "build": "next build src",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "export": "npm run build && next export src -o build",
+    "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
