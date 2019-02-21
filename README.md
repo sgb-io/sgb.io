@@ -12,10 +12,13 @@ via create-react-app, then adapted to work with next.js.
 
 #### Deployment
 
-The exported directory is a ready-to-go static site. It can be served on a server.
+Currently using Zeit's `now` app to deploy with ease.
 
-One thing to consider trying is using ZEIT Now, which would simply require `now`.
+- In this dir, `now`
+- Will be deployed to a `*.now.sh` url e.g. `https://sgb-new-irxeezlonp.now.sh/`
+- Do `now alias https://sgb-new-irxeezlonp.now.sh sgb.io`
+- Done!
 
-Note that a potentially better option going forwards is to use the premium Now service rather than DO. This would simplify things plus run it via Node therefore giving you both server _and_ client React rendering. Arguably server rendering and static basic deployment (eg nginx) anywhere is fine, though.
+An alternative is to static build via `yarn export` and serve the `build` dir. Note that the static output can also be hosted on Zeit (but that would not give us client-side React rendering).
 
 ---
