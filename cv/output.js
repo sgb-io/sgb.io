@@ -25,4 +25,5 @@ var experienceOutput = _content.skills.commercial.map(function (item) {
 });
 output = output.replace(EXPERIENCE_LIST, '- ' + experienceOutput.join('\n- '));
 
+// TODO make it write to cv.md
 console.log(output);

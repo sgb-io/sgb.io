@@ -12,9 +12,9 @@
 
 I'm Sam, a software engineer based in London.
 
-The hyper-connected world we live in today means we have a unique opportunity to deliver real world value to thousands or even millions of people by deploying code onto devices and networks. I think it's a special time to be involved with the web and I'm grateful to be a part of it.
+I'm a strong communicator and passionate about delivering quality in products. I have broad industry experience across a range of types of organisations - including finance, gaming & advertising. I'm an expert on code quality and spend time interacting with the open source community across a range of projects.
 
-I'm passionate about what I do and having fun doing it with amazing people inspires me.
+What sets me apart? My critical thinking and communication skills.
 
 I have worked accross the stack with various technologies and have a particular interest in all things JavaScript.
 
@@ -24,7 +24,8 @@ I have worked accross the stack with various technologies and have a particular 
 
 I have been in the industry since 2011 after graduating from the University of Plymouth in Web Applications Development. Since then, I've been working across various sectors including advertising, ed-tech, startups & sports betting.
 
-- React/Redux JavaScript Developer (contract) at The App Business (for The Racing Post) - 10/17 - 07/18
+- React JavaScript Developer (contract) at Reason (for AlixPartners) - 07/18 - Present
+- React JavaScript Developer (contract) at The App Business (for The Racing Post) - 10/17 - 07/18
 - Senior Front-End Developer (contract) at Circus Street - 04/17 - 10/17
 - Senior Full-Stack Developer (contract) at Mentally Friendly (for the British Museum) - 10/16 - 03/17
 - Front-End Developer (contract) at Code & Theory - 07/16 - 09/16
@@ -36,17 +37,16 @@ I have been in the industry since 2011 after graduating from the University of P
 
 ### Technical {#technical}
 
-- JavaScript (ES6 & beyond)
+- JavaScript (ES6/7 & beyond)
+- Flow, TypeScript
 - React, Flux/Redux and related modules in the ecosystem
-- BDD/TDD via Jest, Enzyme and alternative modules
+- Unit & integration testing via Jest, Enzyme & Cypress
 - Hybrid Mobile (mainly Cordova, some React Native)
 - CSS (usually BEM & preprocessor with autoprefixer etc)
-- Tooling - various (primarily Webpack these days)
-- NodeJS ecosystem & tooling (npm etc)
-- Comfortable with TypeScript or Flow
+- NodeJS ecosystem & tooling (deep understanding of npm)
 - Personal interest in programming languages including Golang & Python
 - Personal interest in functional programming (& other programming styles)
-- Legacy skills: angular 1.x, php & more
+- Excellent communicator
 - Solid experience working in a containerised world: docker etc
 - Solid experience with AWS/the cloud
 - Expert debugger in the browser
