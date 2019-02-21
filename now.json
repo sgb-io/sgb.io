@@ -1,7 +1,8 @@
 {
     "version": 2,
     "name": "sgb-new",
+    "alias": ["sgb.io"],
     "builds": [
-        { "src": "/static", "use": "@now/static" }
+        { "src": "static/*", "use": "@now/static" }
     ]
   }
