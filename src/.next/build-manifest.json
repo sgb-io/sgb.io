@@ -1,1 +1,23 @@
-{"pages":{},"css":[],"bundles/pages/_error.js":["bundles/pages/_error.js"],"bundles/pages/_app.js":["bundles/pages/_app.js"],"bundles/pages/index.js":["bundles/pages/index.js"],"main.js":["static/commons/main-75fa9d05325b9f763e21.js"]}
+{
+  "devFiles": [
+    "static/development/dll/dll_d665c99df7f050881bef.js"
+  ],
+  "pages": {
+    "/_app": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ]
+  }
+}
