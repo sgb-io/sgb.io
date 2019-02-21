@@ -22,27 +22,26 @@ export const about = {
     ],
     intros: [
         'I\'m Sam, a software engineer based in London.',
-        'The hyper-connected world we live in today means we have a unique opportunity to deliver real world value to thousands or even millions of people by deploying code onto devices and networks. I think it\'s a special time to be involved with the web and I\'m grateful to be a part of it.',
-        'I\'m passionate about what I do and having fun doing it with amazing people inspires me.',
+        'I\'m a strong communicator and passionate about delivering quality in products. I have broad industry experience across a range of types of organisations - including finance, gaming & advertising. I\'m an expert on code quality and spend time interacting with the open source community across a range of projects.',
+        'What sets me apart? My critical thinking and communication skills.',
         'I have worked accross the stack with various technologies and have a particular interest in all things JavaScript.',
     ],
 }
 
 export const skills = {
     technical: [
-        'JavaScript (ES6 & beyond)',
+        'JavaScript (ES6/7 & beyond)',
+        'Flow, TypeScript',
         'React, Flux/Redux and related modules in the ecosystem',
-        'BDD/TDD via Jest, Enzyme and alternative modules',
+        'Unit & integration testing via Jest, Enzyme & Cypress',
         'Hybrid Mobile (mainly Cordova, some React Native)',
         'CSS (usually BEM & preprocessor with autoprefixer etc)',
-        'Tooling - various (primarily Webpack these days)',
-        'NodeJS ecosystem & tooling (npm etc)',
-        'Comfortable with TypeScript or Flow',
+        'NodeJS ecosystem & tooling (deep understanding of npm)',
         'Personal interest in programming languages including Golang & Python',
         'Personal interest in functional programming (& other programming styles)',
-        'Legacy skills: angular 1.x, php & more',
     ],
     supplementary: [
+        'Excellent communicator',
         'Solid experience working in a containerised world: docker etc',
         'Solid experience with AWS/the cloud',
         'Expert debugger in the browser',
@@ -58,8 +57,14 @@ export const skills = {
     ],
     commercial: [
         {
+            dateRange: '07/18 - Present',
+            description: 'React JavaScript Developer (contract) at',
+            companyName: 'Reason (for AlixPartners)',
+            companyLink: 'https://www.alixpartners.com/',
+        },
+        {
             dateRange: '10/17 - 07/18',
-            description: 'React/Redux JavaScript Developer (contract) at',
+            description: 'React JavaScript Developer (contract) at',
             companyName: 'The App Business (for The Racing Post)',
             companyLink: 'https://www.theappbusiness.com/',
         },
@@ -110,12 +115,20 @@ export const skills = {
 
 export const projects = [
     {
+        title: 'Reason X AlixPartners (July 2018 - Present)',
+        link: 'https://www.alixpartners.com/',
+        images: [],
+        role: 'React JavaScript Developer (contract)',
+        description: 'Core member of a team delivering an internal greenfield financial analysis webapp from day 1. Primary member of a 6-strong frontend dev team iteratively delivering a high-value product. My primary highlight on this project has been introducing the team to Flow and using it extensively throughout our code, plus leading the charge in testing.',
+        keyTech: 'React, Redux, Jest',
+    },
+    {
         title: 'The App Business X The Racing Post (November 2017 - July 2018)',
         link: 'https://www.racingpost.com/',
         images: [
             '/static/img/projects/rp.jpg',
         ],
-        role: 'React/Redux JavaScript Developer (contract)',
+        role: 'React JavaScript Developer (contract)',
         description: 'I worked on an embedded agile team delivering substantial upgrades to racingpost.com. By the end of this project, racingpost.com went from only single bets, to a fully featured betslip supporting multiples and accumulators accross 6 bookmaker partners, with a brand new user experience. The stand-out feature of this project was the quality of the betslip component we delivered, including 99.96% test coverage.',
         keyTech: 'React, Redux, Jest',
     },

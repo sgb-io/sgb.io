@@ -3,6 +3,5 @@
     "name": "sgb-new",
     "alias": ["sgb.io"],
     "builds": [
-        { "src": "static/*", "use": "@now/static" }
     ]
   }
