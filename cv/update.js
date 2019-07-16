@@ -3,8 +3,8 @@ import fs from 'fs'
 import {
     about,
     skills,
-    projects,
-} from './content'
+    // projects,
+} from '../src/content'
 
 let output = ''
 const template = fs.readFileSync(`${__dirname}/template.md`).toString()

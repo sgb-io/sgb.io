@@ -24,7 +24,8 @@ I have worked accross the stack with various technologies and have a particular 
 
 I have been in the industry since 2011 after graduating from the University of Plymouth in Web Applications Development. Since then, I've been working across various sectors including advertising, ed-tech, startups & sports betting.
 
-- React JavaScript Developer (contract) at Reason (for AlixPartners) - 07/18 - Present
+- React JavaScript Developer (contract) at Idean (for SMARTY/Three Mobile) - 05/19 - Present
+- React JavaScript Developer (contract) at Reason (for AlixPartners) - 07/18 - 05/19
 - React JavaScript Developer (contract) at The App Business (for The Racing Post) - 10/17 - 07/18
 - Senior Front-End Developer (contract) at Circus Street - 04/17 - 10/17
 - Senior Full-Stack Developer (contract) at Mentally Friendly (for the British Museum) - 10/16 - 03/17
@@ -40,6 +41,7 @@ I have been in the industry since 2011 after graduating from the University of P
 - JavaScript (ES6/7 & beyond)
 - Flow, TypeScript
 - React, Flux/Redux and related modules in the ecosystem
+- Next/Gatsby & SSR for React
 - Unit & integration testing via Jest, Enzyme & Cypress
 - Hybrid Mobile (mainly Cordova, some React Native)
 - CSS (usually BEM & preprocessor with autoprefixer etc)

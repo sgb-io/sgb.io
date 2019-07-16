@@ -1,6 +1,4 @@
-/* eslint-disable max-len */
-
-export const about = {
+const about = {
     face: '/static/img/face.jpg',
     social: [
         {
@@ -28,11 +26,12 @@ export const about = {
     ],
 }
 
-export const skills = {
+const skills = {
     technical: [
         'JavaScript (ES6/7 & beyond)',
         'Flow, TypeScript',
         'React, Flux/Redux and related modules in the ecosystem',
+        'Next/Gatsby & SSR for React',
         'Unit & integration testing via Jest, Enzyme & Cypress',
         'Hybrid Mobile (mainly Cordova, some React Native)',
         'CSS (usually BEM & preprocessor with autoprefixer etc)',
@@ -57,7 +56,13 @@ export const skills = {
     ],
     commercial: [
         {
-            dateRange: '07/18 - Present',
+            dateRange: '05/19 - Present',
+            description: 'React JavaScript Developer (contract) at',
+            companyName: 'Idean (for SMARTY/Three Mobile)',
+            companyLink: 'https://smarty.co.uk',
+        },
+        {
+            dateRange: '07/18 - 05/19',
             description: 'React JavaScript Developer (contract) at',
             companyName: 'Reason (for AlixPartners)',
             companyLink: 'https://www.alixpartners.com/',
@@ -113,14 +118,22 @@ export const skills = {
     ],
 }
 
-export const projects = [
+const projects = [
     {
-        title: 'Reason X AlixPartners (July 2018 - Present)',
+        title: 'Idean X SMARTY & Three (May 2019 - Present)',
+        link: 'https://smarty.co.uk',
+        images: [],
+        role: 'React JavaScript Developer (contract)',
+        description: 'Delivering new capabilities on SMARTYs marketing site and user webapp. New features and improved experiences for many thousands of users.',
+        keyTech: 'React, Redux, Jest, Flow, Gatsby',
+    },
+    {
+        title: 'Reason X AlixPartners (July 2018 - May 2019)',
         link: 'https://www.alixpartners.com/',
         images: [],
         role: 'React JavaScript Developer (contract)',
         description: 'Core member of a team delivering an internal greenfield financial analysis webapp from day 1. Primary member of a 6-strong frontend dev team iteratively delivering a high-value product. My primary highlight on this project has been introducing the team to Flow and using it extensively throughout our code, plus leading the charge in testing.',
-        keyTech: 'React, Redux, Jest',
+        keyTech: 'React, Redux, Jest, Flow',
     },
     {
         title: 'The App Business X The Racing Post (November 2017 - July 2018)',
@@ -176,4 +189,10 @@ export const projects = [
     },
 ]
 
-/* eslint-enable max-len */
+
+// This style is required for our current cv script
+module.exports = {
+    about,
+    skills,
+    projects,
+}

@@ -1,11 +1,6 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-/* eslint-disable max-len */
-
-const about = exports.about = {
+const about = {
     face: '/static/img/face.jpg',
     social: [{
         name: 'Github',
@@ -23,11 +18,16 @@ const about = exports.about = {
     intros: ['I\'m Sam, a software engineer based in London.', 'I\'m a strong communicator and passionate about delivering quality in products. I have broad industry experience across a range of types of organisations - including finance, gaming & advertising. I\'m an expert on code quality and spend time interacting with the open source community across a range of projects.', 'What sets me apart? My critical thinking and communication skills.', 'I have worked accross the stack with various technologies and have a particular interest in all things JavaScript.']
 };
 
-const skills = exports.skills = {
-    technical: ['JavaScript (ES6/7 & beyond)', 'Flow, TypeScript', 'React, Flux/Redux and related modules in the ecosystem', 'Unit & integration testing via Jest, Enzyme & Cypress', 'Hybrid Mobile (mainly Cordova, some React Native)', 'CSS (usually BEM & preprocessor with autoprefixer etc)', 'NodeJS ecosystem & tooling (deep understanding of npm)', 'Personal interest in programming languages including Golang & Python', 'Personal interest in functional programming (& other programming styles)'],
+const skills = {
+    technical: ['JavaScript (ES6/7 & beyond)', 'Flow, TypeScript', 'React, Flux/Redux and related modules in the ecosystem', 'Next/Gatsby & SSR for React', 'Unit & integration testing via Jest, Enzyme & Cypress', 'Hybrid Mobile (mainly Cordova, some React Native)', 'CSS (usually BEM & preprocessor with autoprefixer etc)', 'NodeJS ecosystem & tooling (deep understanding of npm)', 'Personal interest in programming languages including Golang & Python', 'Personal interest in functional programming (& other programming styles)'],
     supplementary: ['Excellent communicator', 'Solid experience working in a containerised world: docker etc', 'Solid experience with AWS/the cloud', 'Expert debugger in the browser', 'CI/CD tooling (Travis, Gitlab, etc), unit tests & high levels of coverage', 'Coverage/static analysis eg Instanbul, CodeClimate', 'Reasonable experience & knowledge of databases', 'Reasonable understanding of data structures & their importance', 'Reasonable understanding of web accessibility', 'Reasonable systems experience: message queues, emails, security', 'Experienced working in Agile teams, Scrum & Kanban styles', 'Caching (it\'s simple but hard!)', 'Naming things (even harder!)'],
     commercial: [{
-        dateRange: '07/18 - Present',
+        dateRange: '05/19 - Present',
+        description: 'React JavaScript Developer (contract) at',
+        companyName: 'Idean (for SMARTY/Three Mobile)',
+        companyLink: 'https://smarty.co.uk'
+    }, {
+        dateRange: '07/18 - 05/19',
         description: 'React JavaScript Developer (contract) at',
         companyName: 'Reason (for AlixPartners)',
         companyLink: 'https://www.alixpartners.com/'
@@ -73,13 +73,20 @@ const skills = exports.skills = {
     }]
 };
 
-const projects = exports.projects = [{
+const projects = [{
+    title: 'Idean X SMARTY & Three (May 2019 - Present)',
+    link: 'https://smarty.co.uk',
+    images: [],
+    role: 'React JavaScript Developer (contract)',
+    description: 'Delivering new capabilities on SMARTYs marketing site and user webapp. New features and improved experiences for many thousands of users.',
+    keyTech: 'React, Redux, Jest, Flow, Gatsby'
+}, {
     title: 'Reason X AlixPartners (July 2018 - Present)',
     link: 'https://www.alixpartners.com/',
     images: [],
     role: 'React JavaScript Developer (contract)',
     description: 'Core member of a team delivering an internal greenfield financial analysis webapp from day 1. Primary member of a 6-strong frontend dev team iteratively delivering a high-value product. My primary highlight on this project has been introducing the team to Flow and using it extensively throughout our code, plus leading the charge in testing.',
-    keyTech: 'React, Redux, Jest'
+    keyTech: 'React, Redux, Jest, Flow'
 }, {
     title: 'The App Business X The Racing Post (November 2017 - July 2018)',
     link: 'https://www.racingpost.com/',
@@ -117,4 +124,9 @@ const projects = exports.projects = [{
     keyTech: 'Angular, GSAP/TweenMax'
 }];
 
-/* eslint-enable max-len */
+// This style is required for our current cv script
+module.exports = {
+    about,
+    skills,
+    projects
+};
