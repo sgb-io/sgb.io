@@ -19,10 +19,15 @@ const about = {
 };
 
 const skills = {
-    technical: ['JavaScript (ES6/7 & beyond)', 'Flow, TypeScript', 'React, Flux/Redux and related modules in the ecosystem', 'Next/Gatsby & SSR for React', 'Unit & integration testing via Jest, Enzyme & Cypress', 'Hybrid Mobile (mainly Cordova, some React Native)', 'CSS (usually BEM & preprocessor with autoprefixer etc)', 'NodeJS ecosystem & tooling (deep understanding of npm)', 'Personal interest in programming languages including Golang & Python', 'Personal interest in functional programming (& other programming styles)'],
+    technical: ['JavaScript (ES6/7 & beyond)', 'TypeScript, Flow', 'React, Redux and other state management tools like statecharts', 'Concurrent Mode', 'Next/Gatsby & SSR for React', 'Unit & integration testing via Jest, Enzyme & Cypress', 'Hybrid Mobile (mainly Cordova, some React Native)', 'CSS (usually BEM & preprocessor with autoprefixer etc)', 'NodeJS ecosystem & tooling (deep understanding of npm)', 'Personal interest in programming languages including Golang & Python', 'Personal interest in functional programming (& other programming styles)'],
     supplementary: ['Excellent communicator', 'Solid experience working in a containerised world: docker etc', 'Solid experience with AWS/the cloud', 'Expert debugger in the browser', 'CI/CD tooling (Travis, Gitlab, etc), unit tests & high levels of coverage', 'Coverage/static analysis eg Instanbul, CodeClimate', 'Reasonable experience & knowledge of databases', 'Reasonable understanding of data structures & their importance', 'Reasonable understanding of web accessibility', 'Reasonable systems experience: message queues, emails, security', 'Experienced working in Agile teams, Scrum & Kanban styles', 'Caching (it\'s simple but hard!)', 'Naming things (even harder!)'],
     commercial: [{
-        dateRange: '05/19 - Present',
+        dateRange: '09/19 - Present',
+        description: 'React JavaScript Developer (contract) at',
+        companyName: 'Concentra Analytics (OrgVue)',
+        companyLink: 'https://concentra.co.uk'
+    }, {
+        dateRange: '05/19 - 09/19',
         description: 'React JavaScript Developer (contract) at',
         companyName: 'Idean (for SMARTY/Three Mobile)',
         companyLink: 'https://smarty.co.uk'
@@ -74,14 +79,21 @@ const skills = {
 };
 
 const projects = [{
-    title: 'Idean X SMARTY & Three (May 2019 - Present)',
+    title: 'Concentra Analytics - OrgVue (September 2019 - Present)',
+    link: 'https://concentra.co.uk',
+    images: [],
+    role: 'React JavaScript Developer (contract)',
+    description: 'Worked in the core OrgVue team to deliver the 3.4 milestone. Major new features including new charts and data fetching reimplementation. I also gained experience working with the new React concurrent mode and statecharts for state management.',
+    keyTech: 'React, TypeScript, Concurrent Mode, Highcharts'
+}, {
+    title: 'Idean X SMARTY & Three (May 2019 - September 2019)',
     link: 'https://smarty.co.uk',
     images: [],
     role: 'React JavaScript Developer (contract)',
     description: 'Delivering new capabilities on SMARTYs marketing site and user webapp. New features and improved experiences for many thousands of users.',
     keyTech: 'React, Redux, Jest, Flow, Gatsby'
 }, {
-    title: 'Reason X AlixPartners (July 2018 - Present)',
+    title: 'Reason X AlixPartners (July 2018 - May 2019)',
     link: 'https://www.alixpartners.com/',
     images: [],
     role: 'React JavaScript Developer (contract)',

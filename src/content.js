@@ -29,8 +29,9 @@ const about = {
 const skills = {
     technical: [
         'JavaScript (ES6/7 & beyond)',
-        'Flow, TypeScript',
-        'React, Flux/Redux and related modules in the ecosystem',
+        'TypeScript, Flow',
+        'React, Redux and other state management tools like statecharts',
+        'Concurrent Mode',
         'Next/Gatsby & SSR for React',
         'Unit & integration testing via Jest, Enzyme & Cypress',
         'Hybrid Mobile (mainly Cordova, some React Native)',
@@ -56,7 +57,13 @@ const skills = {
     ],
     commercial: [
         {
-            dateRange: '05/19 - Present',
+            dateRange: '09/19 - Present',
+            description: 'React JavaScript Developer (contract) at',
+            companyName: 'Concentra Analytics (OrgVue)',
+            companyLink: 'https://concentra.co.uk',
+        },
+        {
+            dateRange: '05/19 - 09/19',
             description: 'React JavaScript Developer (contract) at',
             companyName: 'Idean (for SMARTY/Three Mobile)',
             companyLink: 'https://smarty.co.uk',
@@ -120,7 +127,15 @@ const skills = {
 
 const projects = [
     {
-        title: 'Idean X SMARTY & Three (May 2019 - Present)',
+        title: 'Concentra Analytics - OrgVue (September 2019 - Present)',
+        link: 'https://concentra.co.uk',
+        images: [],
+        role: 'React JavaScript Developer (contract)',
+        description: 'Worked in the core OrgVue team to deliver the 3.4 milestone. Major new features including new charts and data fetching reimplementation. I also gained experience working with the new React concurrent mode and statecharts for state management.',
+        keyTech: 'React, TypeScript, Concurrent Mode, Highcharts',
+    },
+    {
+        title: 'Idean X SMARTY & Three (May 2019 - September 2019)',
         link: 'https://smarty.co.uk',
         images: [],
         role: 'React JavaScript Developer (contract)',
