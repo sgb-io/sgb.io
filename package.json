@@ -16,7 +16,7 @@
     "dev": "next src",
     "build": "next build src",
     "start": "next start src",
-    "now-build": "npm run build; next export src -o build",
+    "now-build": "yarn build; next export src -o build",
     "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {

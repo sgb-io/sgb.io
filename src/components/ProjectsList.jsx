@@ -28,7 +28,7 @@ const ProjectsList = (props) => {
         <div className="col-12 col-sm-8 work">
             <div className="row">
                 <div className="col-12">
-                    <h2>Past Work</h2><br />
+                    <h2>Experience</h2><br />
                     {projects}
                 </div>
             </div>

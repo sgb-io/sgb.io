@@ -11,24 +11,21 @@ const SkillsList = (props) => {
 
     return (
         <div className="col-12 col-sm-4 tech">
-            <h2>Experience</h2>
-            <h4>Technical</h4>
+            <h2>Skills</h2>
+            <h5>Programming</h5>
             <ul className="technical">
                 {
                     technical.map(
                         (techSkill, key) => (<li key={key}>{techSkill}</li>),
                     )
                 }
-            </ul>
-            <h4>Supplementary</h4>
-            <ul className="technical">
-                {
+                                {
                     supplementary.map(
                         (supplementarySkill, key) => (<li key={key}>{supplementarySkill}</li>),
                     )
                 }
             </ul>
-            <h4>Commercial</h4>
+            <h5>Job History</h5>
             <ul className="experience">
                 {
                     commercial.map((commercialSkill, key) => {
@@ -50,7 +47,7 @@ const SkillsList = (props) => {
                     })
                 }
             </ul>
-            <h4>Academic</h4>
+            <h4>Education</h4>
             <ul className="academic">
                 {
                     academic.map((academicItem, key) => (

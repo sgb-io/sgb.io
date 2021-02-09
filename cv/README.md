@@ -6,7 +6,7 @@ Fetches content from the website `content.js` file, re-generates `cv.md`, ready 
 
 1. `npm install`
 2. Copy content to be commonjs readable: `npx babel --plugins transform-es2015-modules-commonjs ../src/content.js -o content.js`
-3. Compile, run & output: `npx babel update.js -o output.js; node output.js > cv.md`
+3. Compile, run & output: `npx babel update.js -o output.js; node output.js > cv.md` (second step manual on windows)
 
 ## Build .pdf
 

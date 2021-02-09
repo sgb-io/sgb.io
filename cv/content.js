@@ -15,14 +15,19 @@ const about = {
         name: 'Twitter',
         url: 'https://twitter.com/sgb_io'
     }],
-    intros: ['I\'m Sam, a software engineer based in London.', 'I\'m a strong communicator and passionate about delivering quality in products. I have broad industry experience across a range of types of organisations - including finance, gaming & advertising. I\'m an expert on code quality and spend time interacting with the open source community across a range of projects.', 'What sets me apart? My critical thinking and communication skills.', 'I have worked accross the stack with various technologies and have a particular interest in all things JavaScript.']
+    intros: ['I\'m Sam, a software engineer based in London.', 'I\'m a strong communicator and passionate about delivering quality in products. I have broad industry experience across a range of types of organisations - including banking, consultancy & advertising. I\'m an expert on code quality and spend time interacting with the open source community across a range of projects.', 'I have worked accross the stack with various technologies and have a particular interest in all things JavaScript. I have a heavy focus on UI development, specialising in advanced React projects.']
 };
 
 const skills = {
-    technical: ['JavaScript (ES6/7 & beyond)', 'TypeScript, Flow', 'React, Redux and other state management tools like statecharts', 'Concurrent Mode', 'Next/Gatsby & SSR for React', 'Unit & integration testing via Jest, Enzyme & Cypress', 'Hybrid Mobile (mainly Cordova, some React Native)', 'CSS (usually BEM & preprocessor with autoprefixer etc)', 'NodeJS ecosystem & tooling (deep understanding of npm)', 'Personal interest in programming languages including Golang & Python', 'Personal interest in functional programming (& other programming styles)'],
-    supplementary: ['Excellent communicator', 'Solid experience working in a containerised world: docker etc', 'Solid experience with AWS/the cloud', 'Expert debugger in the browser', 'CI/CD tooling (Travis, Gitlab, etc), unit tests & high levels of coverage', 'Coverage/static analysis eg Instanbul, CodeClimate', 'Reasonable experience & knowledge of databases', 'Reasonable understanding of data structures & their importance', 'Reasonable understanding of web accessibility', 'Reasonable systems experience: message queues, emails, security', 'Experienced working in Agile teams, Scrum & Kanban styles', 'Caching (it\'s simple but hard!)', 'Naming things (even harder!)'],
+    technical: ['JavaScript & TypeScript', 'React expert', 'Recoil, Redux and other state management tools like statecharts', 'Concurrent Mode, Suspense', 'Next/SSR implementations', 'Unit & integration testing via Jest, Enzyme & Cypress', 'NodeJS ecosystem & tooling (deep understanding of npm)', 'Personal interest in programming languages including Golang & Python', 'Personal interest in functional programming (& other programming styles)', 'Big fan of paired programming'],
+    supplementary: ['Strong communicator', 'Solid experience working in a banking context: secure practicies and constraints', 'Solid experience cloud technologies', 'Strong experience with CI/CD tooling (Travis, Gitlab, Jenkins, etc)', 'Coverage/static analysis eg Instanbul, CodeClimate', 'Good experience & understanding of data structures and datastores', 'Reasonable understanding of web accessibility', 'Reasonable systems experience: message queues, emails, security', 'Experienced working in Agile teams, Scrum & Kanban styles', 'Caching (it\'s simple but hard!)', 'Naming things (even harder!)'],
     commercial: [{
-        dateRange: '09/19 - Present',
+        dateRange: '04/20 - Present',
+        description: 'Senior UI Developer (VP) at',
+        companyName: 'Citibank (Cross-Asset Risk, ICG)',
+        companyLink: 'https://www.citigroup.com/citi/'
+    }, {
+        dateRange: '09/19 - 04/20',
         description: 'React JavaScript Developer (contract) at',
         companyName: 'Concentra Analytics (OrgVue)',
         companyLink: 'https://concentra.co.uk'
@@ -79,7 +84,14 @@ const skills = {
 };
 
 const projects = [{
-    title: 'Concentra Analytics - OrgVue (September 2019 - Present)',
+    title: 'Citibank - Cross-Asset Risk, ICG (April 2020 - Present)',
+    link: 'https://www.citigroup.com/citi/',
+    images: [],
+    role: 'Senior UI Developer (VP)',
+    description: 'Implementing and architecting a high-quality React/TypeScript/GraphQL UI for a cross-asset risk system to service the Markets & Securities Services business. Collaborating with global partners to drive the implementation of next-gen Risk systems.',
+    keyTech: 'React, TypeScript, GraphQL, Micro Frontends'
+}, {
+    title: 'Concentra Analytics - OrgVue (September 2019 - April 2020)',
     link: 'https://concentra.co.uk',
     images: [],
     role: 'React JavaScript Developer (contract)',
