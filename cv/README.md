@@ -1,8 +1,8 @@
-# CV 
+# CV
 
-## Update content
+## Update content from the website content
 
-Note: this is optional. Updating cv.md more manually lately.
+Note: this is now optional. Updating cv.md more manually lately.
 
 Fetches content from the website `content.js` file, re-generates `cv.md`, ready for a new pdf build.
 
@@ -11,6 +11,13 @@ Fetches content from the website `content.js` file, re-generates `cv.md`, ready 
 3. Compile, run & output: `npx babel update.js -o output.js; node output.js > cv.md` (second step manual on windows)
 
 ## Build .pdf
+
+We are using https://github.com/simonhaenisch/md-to-pdf now
+
+1. Update the content in cv.md
+2. Run `md-to-pdf cv.md`
+
+### Old instructions
 
 Via https://github.com/there4/markdown-resume
 
