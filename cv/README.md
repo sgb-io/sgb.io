@@ -2,6 +2,8 @@
 
 ## Update content
 
+Note: this is optional. Updating cv.md more manually lately.
+
 Fetches content from the website `content.js` file, re-generates `cv.md`, ready for a new pdf build.
 
 1. `npm install`
