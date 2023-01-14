@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function createMarkup(content) {
-  console.log(content);
   return { __html: content };
 }
 

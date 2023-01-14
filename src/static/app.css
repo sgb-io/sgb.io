@@ -1,11 +1,11 @@
 body {
   background: url("/static/img/background.png") top left repeat #f4f4f4;
-  font-family: "Inconsolata", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 18px;
+  font-family: "Lora", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 14px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 a,
@@ -69,11 +69,11 @@ a:hover {
 
 @media screen and (min-width: 1024px) {
   body {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   h1 {

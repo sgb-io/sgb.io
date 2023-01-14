@@ -2,7 +2,7 @@ const about = {
     face: "/static/img/face.jpg",
     social: [
         {
-            name: "Github",
+            name: "GitHub",
             url: "https://github.com/sgb-io",
         },
         {
@@ -143,7 +143,7 @@ const projects = [
         images: ["/static/img/projects/jpm.png"],
         role: "Software Engineer (VP, UI Engineering)",
         description:
-            "Building tooling and services to enable and enhance UI engineering across the CIB, with a focus on developer experience. Contributions to Modular (open source) and a key strategic CLI tool",
+            "Building tooling and services to enable and enhance UI engineering across the CIB, with a focus on developer experience. Contributions to Modular (open source) and redevelopment of a key strategic CLI tool.",
         keyTech:
             "TypeScript, React, Node.js, GraphQL, Micro Frontends, Modular, Monorepos",
     },
