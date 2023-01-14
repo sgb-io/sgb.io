@@ -19,46 +19,49 @@ const about = {
         },
     ],
     intros: [
-        "I'm Sam, a software engineer based in London.",
-        "I'm a good communicator and passionate about delivering quality software. I have broad industry experience across a range of types of organisations - including investment banks, consultancies & startups.",
-        "I have worked accross the stack with various technologies and have a particular interest in all things JavaScript. I have a focus on UI development, specialising in complex React web applications.",
-        "I'm big on code quality and one of my interests is static code analysis (I have published my own open source static analysis tool on GitHub).",
+        "I'm Sam, a software engineer based in the UK with a focus on UI and tooling.",
+        "I'm passionate about delivering high quality software. I have broad industry experience across a range of types of organisations, most recently at global investment banks.",
+        "During my career I have worked across the stack with various technologies and have a particular interest in all things web and JavaScript. I have a focus on UI development and tooling, often working with TypeScript, React, Node.js and GraphQL.",
+        "One of my interests is static code analysis (I have published my own <a href='https://github.com/sgb-io/codehawk-cli' target='_blank'>open source static analysis tool on GitHub</a>). I also enjoy learning about personal finance and build <a href='https://savingtool.co.uk' target='_blank'>SavingTool.co.uk</a> in my spare time.",
     ],
 };
 
 const skills = {
     technical: [
-        "JavaScript & TypeScript",
-        "React (& ecosystem)",
-        "Recoil, Redux and other state management tools like statecharts",
-        "Concurrent Mode, Suspense, Code splitting",
-        "Unit testing via Jest & Testing Library, e2e testing (Cypress)",
+        "TypeScript, JavaScript",
+        "React",
         "GraphQL",
-        "NodeJS ecosystem & tooling (deep understanding of npm)",
-        "Data structures & algorithms (arrays, graphs, trees)",
-        "AWS & popular cloud services (ecs, s3, lambda)",
-        "Decent web architecture understanding - microservices, horizontal scaling, load balancers, failover, message queues.",
-        "Personal interest in functional programming (& other programming styles)",
-        "Experienced with pair programming (big fan)",
-        "Strong verbal & written communicator",
-        "Strong experience with CI/CD tooling (Travis, Gitlab, Jenkins, etc)",
-        "Experience implementing developer tooling (CLIs, self service systems)",
-        "Experience writing documentation and providing programmatical APIs",
-        "Coverage/static analysis toolings and practices",
+        "NodeJS, NPM, libraries",
+        "CLI tools",
+        "Developer Tooling",
+        "Documentation",
+        "Modern SDLC",
+        "Working with monolithic and microservice architectures",
+        "AWS & Cloud-driven approaches",
     ],
     supplementary: [
-        "Personal interest in programming languages including Rust, Golang, Python & Java",
-        "Solid experience working in a banking context: secure practices and constraints",
-        "Good experience & understanding of data structures and datastores",
-        "Reasonable understanding of web accessibility",
-        "Reasonable systems experience: message queues, emails, security",
-        "Experienced working in Agile teams, Scrum & Kanban styles. Also experienced with SAFe.",
+        "Experienced with banking technology environments",
+        "Personal interest in programming languages",
+        "Data structure driven approach",
         "Caching (it's simple but hard!)",
         "Naming things (even harder!)",
     ],
     commercial: [
         {
-            dateRange: "04/20 - Present",
+            dateRange: "05/22 - Present",
+            description: "Software Engineer (VP, UI Engineering) at",
+            companyName: "J.P. Morgan (CIB, Digital & Platform Services)",
+            companyLink:
+                "https://www.jpmorgan.com/solutions/cib/investment-banking",
+        },
+        {
+            dateRange: "05/21 - 05/22",
+            description: "UI Team Lead (VP) at",
+            companyName: "Citigroup (Cross-Asset Risk, ICG)",
+            companyLink: "https://www.citigroup.com/citi/",
+        },
+        {
+            dateRange: "04/20 - 05/21",
             description: "Senior UI Developer (VP) at",
             companyName: "Citigroup (Cross-Asset Risk, ICG)",
             companyLink: "https://www.citigroup.com/citi/",
@@ -135,12 +138,22 @@ const skills = {
 
 const projects = [
     {
-        title: "Citigroup - Cross-Asset Risk, ICG (April 2020 - Present)",
-        link: "https://www.citigroup.com/citi/",
-        images: [],
-        role: "Senior UI Developer (VP)",
+        title: "J.P. Morgan - CIB, Digital & Platform Services (June 2022 - Present)",
+        link: "https://www.jpmorgan.com/solutions/cib/investment-banking",
+        images: ["/static/img/projects/jpm.png"],
+        role: "Software Engineer (VP, UI Engineering)",
         description:
-            "Implementing and architecting a high-quality React/TypeScript/GraphQL UI for a cross-asset risk system to service the Markets & Securities Services business. Collaborating with global partners to drive the implementation of next-gen Risk systems.",
+            "Building tooling and services to enable and enhance UI engineering across the CIB, with a focus on developer experience. Contributions to Modular (open source) and a key strategic CLI tool",
+        keyTech:
+            "TypeScript, React, Node.js, GraphQL, Micro Frontends, Modular, Monorepos",
+    },
+    {
+        title: "Citigroup - Cross-Asset Risk, ICG (April 2020 - May 2022)",
+        link: "https://www.citigroup.com/citi/",
+        images: ["/static/img/projects/citi.jpg"],
+        role: "Senior UI Developer (VP), UI Team Lead (VP)",
+        description:
+            "Leading & managing a development team of 7 to drive UI development of a React/TypeScript/GraphQL UI platform for cross-asset risk systems (Markets Technology, ICG)",
         keyTech: "React, TypeScript, GraphQL, Micro Frontends",
     },
     {
@@ -173,7 +186,7 @@ const projects = [
     {
         title: "The App Business X The Racing Post (November 2017 - July 2018)",
         link: "https://www.racingpost.com/",
-        images: ["/static/img/projects/rp.jpg"],
+        images: [],
         role: "React JavaScript Developer (contract)",
         description:
             "I worked on an embedded agile team delivering substantial upgrades to racingpost.com. By the end of this project, racingpost.com went from only single bets, to a fully featured betslip supporting multiples and accumulators accross 6 bookmaker partners, with a brand new user experience. The stand-out feature of this project was the quality of the betslip component we delivered, including 99.96% test coverage.",
@@ -182,7 +195,7 @@ const projects = [
     {
         title: "Circus Street (April 2017 - November 2017)",
         link: "https://circusstreet.com/",
-        images: ["/static/img/projects/circus-street.jpg"],
+        images: [],
         role: "Senior Front-End Developer",
         description:
             "I helped the team at Circus Street advance their online learning product by working accross their offering including the marketing website, the learning web application, the hybrid app and several internal management tools. This ranged from several greenfield React/Redux projects with 80%+ test coverage to maintaining an older Angular 1.X project. During this role I learned a great deal about Redux and had the pleasure of implementing several apps using it.",

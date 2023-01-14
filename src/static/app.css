@@ -1,6 +1,6 @@
 body {
-  background: url('/static/img/background.png') top left repeat #f4f4f4;
-  font-family: 'Inconsolata', 'Helvetica Neue', 'Arial', sans-serif;
+  background: url("/static/img/background.png") top left repeat #f4f4f4;
+  font-family: "Inconsolata", "Helvetica Neue", "Arial", sans-serif;
   font-size: 18px;
 }
 
@@ -53,6 +53,10 @@ a:hover {
   border-radius: 3px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.16);
   border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.content .work .project img.img-small {
+  height: 128px;
 }
 
 .content .work .project h2 {
