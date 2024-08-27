@@ -1,28 +1,21 @@
 {
   "name": "sgb-new",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "@zeit/next-css": "^0.2.0",
-    "next": "^8.0.1",
-    "next-images": "^1.0.4",
-    "next-routes": "^1.4.2",
-    "prop-types": "^15.6.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "next": "^14.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "scripts": {
-    "dev": "next src",
-    "build": "next build src",
-    "start": "next start src",
-    "now-build": "yarn build; next export src -o build",
-    "test": "react-scripts test --env=jsdom"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "@types/node": "22.5.0",
+    "@types/react": "^18.3.4",
+    "typescript": "5.5.4"
   }
 }
