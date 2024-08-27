@@ -1,19 +1,11 @@
 ### sgb.io
 
-Personal website, built in React.
+Personal website - 2024 contentless edition
 
-via create-react-app, then adapted to work with next.js.
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1a02a7a9-1f31-4839-9e31-36e85e4c4db2/deploy-status)](https://app.netlify.com/sites/agitated-morse-97535e/deploys)
-
-#### Handy commands
-
-- `yarn` install deps
-- `yarn dev` fire up dev server
-- `yarn export` dump static output into the `build` dir
+Just has links to my other profiles, as there is no point maintaining multiple copies of that content.
 
 #### Deployment
 
-Now deployed via Netlify.  Just push to master.
+Now deployed via Netlify. Just push to master.
 
 ---
